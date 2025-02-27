@@ -4,22 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-     <div class="collatz">
-        <label for="">
+    <div class="collatz">
+        <label>
             Enter Your Number
             <input type="number" id="number-input">
         </label>
-        
-        <button onclick="calculate()">
-            Calculate
-        </button>
-
-        <div class="result" id="resultArea">
-
-        </div>
-     </div>
+        <br>
+        <button onclick="calculate()">Calculate</button>
+        <button onclick="reset()">Reset</button>
+        <div class="result" id="resultArea"></div>
+    </div>
 
     <script src="js/app.js"></script>
 </body>
